@@ -1,0 +1,12 @@
+{
+  "name": "your-gridsome-project",
+  "alias": "your-gridsome-project.com",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "dist" }
+    }
+  ]
+}
