@@ -1,7 +1,7 @@
 <template>
+  <!-- eslint-disable vue/no-v-html -->
   <Layout
-    :subtitles="$page.article.subtitles"
-    :links="links">
+    :subtitles="$page.article.subtitles">
     <div
       class="post mb"
       v-html="$page.article.content" />
@@ -9,8 +9,8 @@
 </template>
 
 <page-query>
-query BasicArticle ($path: String!) {
-  article: basicArticle (path: $path) {
+query GettingStarted ($path: String!) {
+  article: gettingStarted (path: $path) {
     title
     date (format: "D. MMMM YYYY")
     timeToRead
@@ -20,14 +20,7 @@ query BasicArticle ($path: String!) {
 </page-query>
 
 <script>
-import links from '@/data/doc-links.yaml';
-
 export default {
-  computed: {
-    links() {
-      return links;
-    }
-  },
   metaInfo() {
     const { title, headings } = this.$page.article;
 

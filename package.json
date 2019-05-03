@@ -24,6 +24,7 @@
     "algoliasearch": "^3.32.0",
     "babel-runtime": "^6.26.0",
     "docsearch.js": "^2.6.2",
+    "eva-icons": "^1.1.1",
     "gridsome": "0.5.4",
     "http-server": "^0.11.1",
     "marked": "^0.6.1",

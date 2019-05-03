@@ -14,7 +14,7 @@
           <span>Edit this page on GitHub</span>
         </a>
       </p>
-      <nav class="docs-nav">
+      <!-- <nav class="docs-nav">
         <div class="docs-nav__previous">
           <g-link
             v-if="previousPage"
@@ -31,7 +31,7 @@
             {{ nextPage.title }}
           </g-link>
         </div>
-      </nav>
+      </nav> -->
     </Section>
     <Footer v-if="footer !== false" />
   </div>
@@ -47,9 +47,10 @@ export default {
     Footer
   },
   props: {
-    subtitles: Array,
-    links: Array,
-    footer: [Array, String, Object]
+    footer: {
+      type: Boolean,
+      default: true
+    }
   },
   computed: {
     currentPath() {
@@ -60,24 +61,6 @@ export default {
       if ((path.match(new RegExp('/', 'g')) || []).length == 1)
         path = path + '/README';
       return `https://github.com/gridsome/gridsome.org/blob/master${path}.md`;
-    },
-    items() {
-      return (
-        this.links &&
-        this.links.reduce((acc, group) => (acc.push(...group.items), acc), [])
-      );
-    },
-    currentIndex() {
-      return (
-        this.items &&
-        this.items.findIndex(item => item.link === this.$route.path)
-      );
-    },
-    nextPage() {
-      return this.items && this.items[this.currentIndex + 1];
-    },
-    previousPage() {
-      return this.items && this.items[this.currentIndex - 1];
     }
   }
 };

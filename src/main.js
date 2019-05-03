@@ -1,9 +1,10 @@
 // Import global styles
 import 'prismjs/themes/prism.css';
 import '~/assets/style/index.scss';
-
+import 'eva-icons/style/eva-icons.css';
 // Add global components
 import Layout from '~/layouts/Default.vue';
+import Home from '~/layouts/Home.vue';
 import Section from '~/components/Section.vue';
 import Card from '~/components/Card';
 
@@ -32,6 +33,7 @@ const typography = new Typography({
 
 export default function(Vue, { head, router, isServer }) {
   Vue.component('Layout', Layout);
+  Vue.component('Home', Home);
   Vue.component('Section', Section);
   Vue.component('Card', Card);
 
