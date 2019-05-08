@@ -4,6 +4,7 @@
     <Section
       class="flex-fit"
       container="md">
+      <Breadcrumb :path="path" />
       <slot />
       <p>
         <a
@@ -38,18 +39,26 @@
 </template>
 
 <script>
+import Breadcrumb from '@/components/Breadcrumb';
+import Github from '@/assets/images/github-logo.svg';
 import Header from './partials/Header';
 import Footer from './partials/Footer';
 
 export default {
   components: {
-    Header,
-    Footer
+    Breadcrumb,
+    Footer,
+    Github,
+    Header
   },
   props: {
     footer: {
       type: Boolean,
       default: true
+    },
+    path: {
+      type: String,
+      default: ''
     }
   },
   computed: {
@@ -60,7 +69,7 @@ export default {
       let path = this.currentPath;
       if ((path.match(new RegExp('/', 'g')) || []).length == 1)
         path = path + '/README';
-      return `https://github.com/gridsome/gridsome.org/blob/master${path}.md`;
+      return `https://github.com/zillet/knowledge-base/blob/master${path}.md`;
     }
   }
 };

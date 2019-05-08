@@ -5,6 +5,7 @@ import 'eva-icons/style/eva-icons.css';
 // Add global components
 import Layout from '~/layouts/Default.vue';
 import Home from '~/layouts/Home.vue';
+import Page from '~/layouts/Page.vue';
 import Section from '~/components/Section.vue';
 import Card from '~/components/Card';
 
@@ -36,6 +37,7 @@ export default function(Vue, { head, router, isServer }) {
   Vue.component('Home', Home);
   Vue.component('Section', Section);
   Vue.component('Card', Card);
+  Vue.component('Page', Page);
 
   Vue.use(VueScrollTo);
 

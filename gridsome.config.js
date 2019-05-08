@@ -44,7 +44,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'getting-started/**/*.md',
-        typeName: 'GettingStarted'
+        typeName: 'GettingStartedArticle'
       }
     }
   ]

@@ -59,13 +59,13 @@
     max-width: 1100px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 3rem auto;
   }
   width: 300px;
   height: 335px;
-  margin: 1rem auto;
+  margin: 1rem;
   cursor: pointer;
   &__content {
     text-align: center;

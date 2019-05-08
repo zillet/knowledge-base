@@ -28,8 +28,8 @@ export default {
 .search {
   width: 100%;
   height: 50vh;
-  min-height: 150px;
-  max-height: 300px;
+  min-height: 10rem;
+  max-height: 17rem;
   display: flex;
   color: #fff;
   align-items: center;
@@ -41,6 +41,7 @@ export default {
   }
   &__wrapper {
     max-width: 700px;
+    margin: 1rem;
     width: 100%;
     display: flex;
     flex-direction: column;

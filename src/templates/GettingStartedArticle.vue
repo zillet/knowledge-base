@@ -1,7 +1,7 @@
 <template>
   <!-- eslint-disable vue/no-v-html -->
   <Layout
-    :subtitles="$page.article.subtitles">
+    :path="$page.article.path">
     <div
       class="post mb"
       v-html="$page.article.content" />
@@ -9,12 +9,13 @@
 </template>
 
 <page-query>
-query GettingStarted ($path: String!) {
-  article: gettingStarted (path: $path) {
+query GettingStartedArticle ($path: String!) {
+  article: gettingStartedArticle (path: $path) {
     title
     date (format: "D. MMMM YYYY")
     timeToRead
     content
+    path
   }
 }
 </page-query>

@@ -44,6 +44,8 @@ export default {
   position: relative;
   width: 100%;
   flex: 1;
+  max-width: 800px;
+  margin: auto;
 
   &--primary {
     background-color: var(--primary-bg);
@@ -51,7 +53,7 @@ export default {
 
   &__dots-bg {
     height: 700px;
-    max-width: 1287px;
+    max-width: 900px;
     max-height: 100%;
     margin: 0 auto;
     position: absolute;
