@@ -46,7 +46,13 @@ module.exports = {
         path: 'getting-started/**/*.md',
         typeName: 'GettingStarted'
       }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'security/**/*.md',
+        typeName: 'Security'
+      }
     }
   ]
 };
-console.log('hey');
