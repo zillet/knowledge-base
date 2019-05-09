@@ -1,5 +1,9 @@
 ---
-category: basics
+title: 
+sort: 3
+category: Blockchain, Basic
+excerpt: Zilliqa is the first public blockchain designed to implement sharding, allowing for linear scaling as the blockchain grows in size.
+
 ---
 
 # What is Zilliqa?

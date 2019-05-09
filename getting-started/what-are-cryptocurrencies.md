@@ -1,5 +1,9 @@
 ---
-category: basics
+title: 
+sort: 2
+category: Blockchain, Basic
+excerpt: Cryptocurrencies are a new form of digital currencies which are built on top of a new technology called blockchain. Cryptocurrencies are secure (through latest encryption techniques), fast and fully traceable.
+
 ---
 # What are Cryptocurrencies?
 Cryptocurrencies are a new form of digital currencies which are built on top of a new technology called blockchain. Cryptocurrencies are secure (through latest encryption techniques), fast and fully traceable.
