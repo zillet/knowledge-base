@@ -14,7 +14,7 @@ import Typography from 'typography';
 import 'typeface-league-spartan';
 
 const typography = new Typography({
-  baseFontSize: '18px',
+  baseFontSize: '16px',
   baseLineHeight: 1.6,
   scaleRatio: 1.9,
   bodyColor: 'hsla(0,0%,0%,0.7)',

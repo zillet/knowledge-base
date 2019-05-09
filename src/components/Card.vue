@@ -1,6 +1,8 @@
 <template>
   <div class="card">
-    <div class="card__inner">
+    <div
+      class="card__inner"
+      :class="[customClass, {'card__inner--center': center}]">
       <slot />
     </div>
   </div>
@@ -8,6 +10,16 @@
 
 <script>
 export default {
+  props: {
+    customClass: {
+      type: [String, Object, Array],
+      default: ''
+    },
+    center: {
+      type: Boolean,
+      default: false
+    }
+  },
   computed: {
     cardClasses() {
       let classes = [];
@@ -33,7 +45,14 @@ export default {
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
     color: currentColor;
   }
-
+  &__inner {
+    &--center {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
   h2,
   h3,
   h4,
