@@ -1,27 +1,12 @@
 <template>
   <footer class="text-center">
-    Made in ⛄️ Norway by
     <a
       class="plain"
-      href="//twitter.com/hjvedvik"
+      href="//zillet.io"
       rel="noopener noreferrer"
       target="_blank"
-    >@hjvedvik</a> &
-    <a
-      class="plain"
-      href="//twitter.com/tommyvedvik"
-      rel="noopener noreferrer"
-      target="_blank"
-    >@tommyvedvik</a> and
-    <a
-      class="plain"
-      href="//github.com/gridsome/gridsome/graphs/contributors"
-      rel="noopener noreferrer"
-      target="_blank"
-    >Contributors 🌟</a>
-    <g-link to="/logo">
-      Logo & assets
-    </g-link>
+    >Zillet.io (Zilliqa Wallet)</a> |
+    UI/UX focused Zilliqa wallet primarily inspired from MEW.
   </footer>
 </template>
 

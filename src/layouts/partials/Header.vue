@@ -8,7 +8,7 @@
       <nav class="header-actions flex">
         <!-- <SearchForm class="hide-for-small" /> -->
 
-        <a
+        <!-- <a
           aria-label="Twitter"
           href="//twitter.com/gridsome"
           rel="noopener noreferrer"
@@ -16,24 +16,24 @@
           title="Follow us on Twitter"
         >
           <twitter-logo />
-        </a>
+        </a> -->
 
-        <a
+        <!-- <a
           aria-label="Discord"
           href="//discord.gg/daeay6n"
           rel="noopener noreferrer"
           target="_blank"
           title="Join our discord"
         >
-          <!-- <discord-logo /> -->
-        </a>
+          <discord-logo />
+        </a> -->
 
         <a
           aria-label="github"
-          href="//github.com/gridsome/gridsome"
+          href="//github.com/zillet/zillet"
           rel="noopener noreferrer"
           target="_blank"
-          title="Gridsome @ GitHub"
+          title="Zillet @ GitHub"
         >
           <github-logo
             height="20px"
@@ -50,14 +50,13 @@ import Logo from './Logo';
 import Nav from './Nav';
 // import SearchForm from '~/components/SearchForm.vue';
 import GithubLogo from '@/assets/images/github-logo.svg';
-import TwitterLogo from '@/assets/images/twitter-logo.svg';
+// import TwitterLogo from '@/assets/images/twitter-logo.svg';
 // import DiscordLogo from '@/assets/images/discord-logo.svg';
 
 export default {
   components: {
     Logo,
     GithubLogo,
-    TwitterLogo,
     Nav
   }
 };

@@ -1,22 +1,16 @@
 <template>
   <nav class="main-nav flex gap-15">
-    <g-link to="/docs">
-      <span class="main-nav__label">Docs</span>
+    <g-link to="/">
+      <span class="main-nav__label">Knowledge Base</span>
     </g-link>
-
-    <!--
-    <g-link to="/learn">
-      <icon-learn />
-      <span class="main-nav__label">Learn</span>
-    </g-link> -->
-
-    <g-link to="/plugins">
-      <span class="main-nav__label">Plugins</span>
-    </g-link>
-
-    <g-link to="/blog">
-      <span class="main-nav__label">Blog</span>
-    </g-link>
+    <a
+      aria-label="github"
+      href="//zillet.io"
+      rel="noopener noreferrer"
+      target="_blank"
+      title="Zillet">
+      <span class="main-nav__label">Zillet.io</span>
+    </a>
   </nav>
 </template>
 

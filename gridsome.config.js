@@ -3,9 +3,9 @@ const nodeExternals = require('webpack-node-externals');
 module.exports = {
   siteName: 'Zillet Knowledge Base',
   siteUrl: `https://www.gridsome.org`,
-  titleTemplate: '%s - Gridsome',
+  titleTemplate: '%s - Zillet',
   siteDescription:
-    'Gridsome is a Vue-powered static site generator for building CDN-ready websites and apps for any headless CMS, local files or APIs',
+    'UI/UX focued minimal and secure Zilliqa Wallet primarily inspired from MEW',
   chainWebpack(config, { isServer }) {
     config.module.rules.delete('svg');
     config.module
@@ -43,8 +43,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'basic/**/*.md',
-        typeName: 'BasicArticle'
+        path: 'getting-started/**/*.md',
+        typeName: 'GettingStarted'
       }
     }
   ]
