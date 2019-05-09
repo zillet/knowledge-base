@@ -1,6 +1,6 @@
 {
-  "name": "your-gridsome-project",
-  "alias": "your-gridsome-project.com",
+  "name": "knowledge-base",
+  "alias": "support.zillet.io",
   "version": 2,
   "builds": [
     {
