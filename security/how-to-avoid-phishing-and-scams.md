@@ -1,5 +1,9 @@
 ---
-category: basics
+title: 
+sort: 2
+category: Access, Safety
+excerpt: A compilation of tips and tricks to avoid common phishing/scam techniques.
+
 ---
 # How to Avoid Phishing and Scams?
 

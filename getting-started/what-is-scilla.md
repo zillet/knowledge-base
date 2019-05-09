@@ -1,7 +1,10 @@
 ---
-category: basics
----
+title: 
+sort: 6
+category: Basic
+excerpt: Smart Contract Intermediate-Level Language- in short Scilla, is an intermediate-level smart contract language being developed for Zilliqa. 
 
+---
 # What is Scilla?
 Smart Contract Intermediate-Level Language- in short Scilla, is an intermediate-level smart contract language being developed for Zilliqa. It has been designed as a principled language keeping smart contract safety in perspective.
 

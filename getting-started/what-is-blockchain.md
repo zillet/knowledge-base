@@ -1,7 +1,10 @@
 ---
-category: basics
----
+title: 
+sort: 1
+category: Blockchain, Basic
+excerpt: Blockchain is a digital ledger in which transactions made in bitcoin or another cryptocurrency are recorded chronologically and publicly.
 
+---
 # What is blockchain?
 
 **Blockchain is a digital ledger in which transactions made in bitcoin or another cryptocurrency are recorded chronologically and publicly.**

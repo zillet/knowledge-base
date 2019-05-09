@@ -1,5 +1,9 @@
 ---
-category: basics
+title: 
+sort: 1
+category: Access, Safety
+excerpt: Mnemonic phrases are ordered lists of 12 - 24 words which bring you to specific wallet addresses. These are typically used for recovery and allow direct access into one’s wallet, so they should be treated carefully.
+
 ---
 # What is a Mnemonic Phrase?
 
