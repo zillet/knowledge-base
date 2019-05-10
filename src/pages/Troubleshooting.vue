@@ -1,9 +1,11 @@
 <template>
   <Page>
     <template v-slot:header>
-      <h1>Getting Started</h1>
+      <h1>
+        Troubleshooting issues
+      </h1>
       <p>
-        Step by step instructions on how to use Zillet & all its features
+        Stuck? Get help solving a problem or the error message.
       </p>
     </template>
     <Section>
@@ -22,12 +24,11 @@
   </Page>
 </template>
 <page-query>
-query GettingStartedArticle {
-  article: allGettingStartedArticle {
+query TroubleshootingArticle {
+  article: allTroubleshootingArticle {
     edges{
       node{
         title
-        category
 				excerpt
         path
         timeToRead

@@ -10,6 +10,7 @@ import Section from '~/components/Section.vue';
 import Card from '~/components/Card';
 
 import VueScrollTo from 'vue-scrollto';
+import Vue2Filters from 'vue2-filters';
 
 import Typography from 'typography';
 import 'typeface-league-spartan';
@@ -40,6 +41,7 @@ export default function(Vue, { head, router, isServer }) {
   Vue.component('Page', Page);
 
   Vue.use(VueScrollTo);
+  Vue.use(Vue2Filters);
 
   head.style.push({
     type: 'text/css',

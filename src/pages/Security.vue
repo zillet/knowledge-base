@@ -1,9 +1,9 @@
 <template>
   <Page>
     <template v-slot:header>
-      <h1>Getting Started</h1>
+      <h1>Security </h1>
       <p>
-        Step by step instructions on how to use Zillet & all its features
+        Learn how to protect yourself and your cryptocurrency.
       </p>
     </template>
     <Section>
@@ -22,8 +22,8 @@
   </Page>
 </template>
 <page-query>
-query GettingStartedArticle {
-  article: allGettingStartedArticle {
+query SecurityArticle {
+  article: allSecurityArticle {
     edges{
       node{
         title

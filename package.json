@@ -33,7 +33,8 @@
     "typography": "^0.16.18",
     "vue-instantsearch": "^2.0.0",
     "vue-scrollto": "^2.13.0",
-    "vue-typer": "^1.2.0"
+    "vue-typer": "^1.2.0",
+    "vue2-filters": "^0.6.0"
   },
   "devDependencies": {
     "@gridsome/plugin-critical": "^0.1.1",
