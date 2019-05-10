@@ -1,6 +1,6 @@
 ---
 sort: 2
-category: Access, Safety
+priority: 40
 excerpt: In order to ensure your security and privacy, no sensitive data is ever saved, stored, or transmitted when you use Zillet. Unfortunately, this means we cannot Recover or reset your password, Recover your private key
 
 ---

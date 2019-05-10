@@ -1,6 +1,6 @@
 ---
 sort: 4
-category: Access, Safety
+priority: 40
 excerpt: Zillet is not a "web wallet." You do not create an account or give us your crypto or tokens to hold on to. We are simply an interface that allows you to easily interact with cryptocurrencies.
 
 ---

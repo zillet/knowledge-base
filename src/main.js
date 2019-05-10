@@ -8,6 +8,7 @@ import Home from '~/layouts/Home.vue';
 import Page from '~/layouts/Page.vue';
 import Section from '~/components/Section.vue';
 import Card from '~/components/Card';
+import List from '~/components/List';
 
 import VueScrollTo from 'vue-scrollto';
 import Vue2Filters from 'vue2-filters';
@@ -39,6 +40,7 @@ export default function(Vue, { head, router, isServer }) {
   Vue.component('Section', Section);
   Vue.component('Card', Card);
   Vue.component('Page', Page);
+  Vue.component('List', List);
 
   Vue.use(VueScrollTo);
   Vue.use(Vue2Filters);

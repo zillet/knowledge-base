@@ -12,7 +12,6 @@
 query GettingStartedArticle ($path: String!) {
   article: gettingStartedArticle (path: $path) {
     title
-    date (format: "D. MMMM YYYY")
     timeToRead
     content
     path

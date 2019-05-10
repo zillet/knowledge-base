@@ -1,6 +1,7 @@
 ---
 title: How to get started on Zillet
 sort: 1
+priority: 100
 category: Zillet, How to
 excerpt: Please take some time to understand this for your own safety. Your funds will be stolen if you do not heed these warnings. What is Zillet? Zillet is a free, open-source, client-side interface.
 

@@ -8,19 +8,7 @@
         Stuck? Get help solving a problem or the error message.
       </p>
     </template>
-    <Section>
-      <div
-        v-for="article in articles"
-        :key="article.node.title">
-        <g-link :to="article.node.path">
-          <Card
-            class="article-list-item">
-            <h4>{{ article.node.title }}</h4>
-            <p>{{ article.node.excerpt | truncate(180) }}</p>
-          </Card>
-        </g-link>
-      </div>
-    </Section>
+    <List :articles="articles" />
   </Page>
 </template>
 <page-query>
@@ -50,20 +38,8 @@ export default {
   mixins: [Vue2Filters.mixin],
   computed: {
     articles() {
-      console.log(this.$page.article.edges);
       return this.orderBy(this.$page.article.edges, 'node.sort', 1);
     }
   }
 };
 </script>
-
-<style lang="scss" scoped>
-.article-list-item {
-  margin-bottom: 1rem;
-  padding: 1.5rem 2rem;
-  cursor: pointer;
-  p {
-    margin-bottom: 0;
-  }
-}
-</style>

@@ -1,5 +1,6 @@
 ---
 sort: 3
+priority: 50
 excerpt: This article is meant for those that already have an ZIL wallet. Zillet offers a variety of ways to access one’s Zilliqa wallet, by selecting the ‘Access My Wallet’ option on the front page. Keystore/JSON File + Password, Mnemonic Phrase + Password and Private Key
 ---
 

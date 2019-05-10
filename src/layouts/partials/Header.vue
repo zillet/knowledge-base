@@ -6,7 +6,9 @@
       <Nav class="flex-fit" />
 
       <nav class="header-actions flex">
-        <!-- <SearchForm class="hide-for-small" /> -->
+        <SearchForm
+          v-if="$route.path !='/'"
+          class="hide-for-small" />
 
         <!-- <a
           aria-label="Twitter"
@@ -33,8 +35,7 @@
           href="//github.com/zillet/zillet"
           rel="noopener noreferrer"
           target="_blank"
-          title="Zillet @ GitHub"
-        >
+          title="Zillet @ GitHub">
           <github-logo
             height="20px"
             width="20px"
@@ -48,7 +49,7 @@
 <script>
 import Logo from './Logo';
 import Nav from './Nav';
-// import SearchForm from '~/components/SearchForm.vue';
+import SearchForm from '~/components/SearchForm.vue';
 import GithubLogo from '@/assets/images/github-logo.svg';
 // import TwitterLogo from '@/assets/images/twitter-logo.svg';
 // import DiscordLogo from '@/assets/images/discord-logo.svg';
@@ -56,6 +57,7 @@ import GithubLogo from '@/assets/images/github-logo.svg';
 export default {
   components: {
     Logo,
+    SearchForm,
     GithubLogo,
     Nav
   }

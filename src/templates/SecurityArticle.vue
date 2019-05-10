@@ -12,7 +12,6 @@
 query SecurityArticle ($path: String!) {
   article: securityArticle (path: $path) {
     title
-    date (format: "D. MMMM YYYY")
     timeToRead
     content
     path

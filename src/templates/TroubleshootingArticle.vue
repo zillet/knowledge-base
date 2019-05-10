@@ -12,7 +12,6 @@
 query TroubleshootingArticle ($path: String!) {
   article: troubleshootingArticle (path: $path) {
     title
-    date (format: "D. MMMM YYYY")
     timeToRead
     content
     path

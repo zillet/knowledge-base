@@ -1,6 +1,7 @@
 ---
 title: 21 Common terms in Zilliqa/ Crypto community
 sort: 10
+priority: 80
 excerpt: Here is a list of terms you may encounter Zilliqa or any other service on daily basis. What is Account address, Private key, Gas Limit, Gas Price, Nonce, Keystore file, Mnemonice Seed, Scilla
 
 ---

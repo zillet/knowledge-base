@@ -1,7 +1,7 @@
 ---
 title: 15 Simple tips to avoid phishing and scams
 sort: 2
-category: Access, Safety
+priority: 100
 excerpt: A compilation of tips and tricks to avoid common phishing/scam techniques. Do not give your private key, mnemonic phrase, or keystore file to anyone. Never click on a link sent to you, even if it looks like it was sent by a legitimate crypto company
 
 ---
