@@ -23,11 +23,10 @@ export default {
   mounted() {
     import('docsearch.js').then(({ default: docsearch }) => {
       docsearch({
-        appId: '60PEWO07TU',
-        indexName: 'getting-started',
+        apiKey: '2d2b5c1670b8b99891a0fe03e258ecbd',
+        indexName: 'zillet',
         inputSelector: `#${this.id}-input`,
-        apiKey: 'c2f5bd9b163d4696e4fd0e6e0e0521e1',
-        debug: true
+        debug: true // Set debug to true if you want to inspect the dropdown
       });
     });
   }
@@ -36,7 +35,6 @@ export default {
 
 <style lang="scss">
 @import '~docsearch.js/dist/cdn/docsearch.min.css';
-
 .header-search {
   display: inline-block;
   margin-bottom: 0;

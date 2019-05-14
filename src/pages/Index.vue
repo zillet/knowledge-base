@@ -11,6 +11,7 @@ query SearchPage {
     edges {
       node {
         title
+        path
         excerpt
         priority
       }
@@ -20,6 +21,7 @@ query SearchPage {
     edges {
       node {
         title
+        path
         excerpt
         priority
       }
@@ -29,6 +31,7 @@ query SearchPage {
     edges {
       node {
         title
+        path
         excerpt
         priority
       }
