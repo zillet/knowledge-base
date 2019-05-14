@@ -51,6 +51,12 @@ module.exports = {
   },
   plugins: [
     {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-139308938-2'
+      }
+    },
+    {
       use: `gridsome-plugin-algolia`,
       options: {
         appId: process.env.ALGOLIA_APP_ID,
