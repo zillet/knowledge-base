@@ -16,8 +16,8 @@ excerpt: We cannot reverse, cancel, or refund transactions. Make sure you know t
 
 ### 2. Use the checksummed version of your address.
 
-- This is the version of your address that includes both capital and lowercase letters.
-- For more information on checksummed addresses, click here.
+- This is the version of your address that includes "zil" as its prefix.
+- For more information on checksummed addresses, click [here](https://github.com/Zilliqa/Zilliqa/wiki/Address-Standard).
 
 
 ### 3. Send a small amount first, to test the waters.
