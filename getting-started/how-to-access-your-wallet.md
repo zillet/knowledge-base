@@ -12,12 +12,20 @@ Zillet offers a variety of ways to access one’s Zilliqa wallet, by selecting t
 
 They are, from most to least recommended:
 
-- Hardware Wallet <small>(Cooming Soon)</small>
+- Hardware Wallet <small>(Currently, Ledger supported)</small>
 - [Moonlet](https://moonlet.xyz) or [ZilPay](https://zilpay.xyz/) <small>(Highly Secure)</small>
 - Keystore/JSON File + Password
 - Mnemonic Phrase + Password
 - Private Key
 
+
+## Hardware Wallet
+
+Hardware wallets use the highest security measures to encrypt a private key within the device itself, keeping phishers and hackers at bay. Users of most hardwares wallets do not receive their private key, but instead receive a 24-word mnemonic phrase for recovery purposes. The devices are also usually accompanied by a pin code or password used to unlock the device, and all information about each wallet is kept on the actual physical device itself.
+
+### __To connect Zillet with Hardware Wallet:__
+
+Currently, only Ledger Hardware wallet is supported. You can read the full guide here. [How to use your Ledger hardware wallet with Zillet](/getting-started/how-to-use-ledger-with-zillet)
 
 ## Moonlet or ZilPay
 
