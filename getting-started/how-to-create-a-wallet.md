@@ -3,6 +3,7 @@ description: Getting Started
 sort: 2
 priority: 90
 excerpt: Create a New Wallet. Select an option for a type of wallet to create. Enter a strong password. Click the `"Create New Wallet"` button. Download and safely save your Wallet File.
+date: 2019-07-23
 ---
 
 # How To Create a New Wallet

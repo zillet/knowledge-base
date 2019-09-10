@@ -22,6 +22,7 @@ query GettingStartedArticle {
           directory
         }
         sort
+        date
       }
     }
   }

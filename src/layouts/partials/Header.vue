@@ -41,6 +41,17 @@
             width="20px"
           />
         </a>
+        <a
+          aria-label="twitter"
+          href="//twitter.com/zilletio"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="Zillet @ Twitter">
+          <twitter-logo
+            height="20px"
+            width="20px"
+          />
+        </a>
       </nav>
     </div>
   </header>
@@ -51,7 +62,7 @@ import Logo from './Logo';
 import Nav from './Nav';
 import SearchForm from '~/components/SearchForm.vue';
 import GithubLogo from '@/assets/images/github-logo.svg';
-// import TwitterLogo from '@/assets/images/twitter-logo.svg';
+import TwitterLogo from '@/assets/images/twitter-logo.svg';
 // import DiscordLogo from '@/assets/images/discord-logo.svg';
 
 export default {
@@ -59,6 +70,7 @@ export default {
     Logo,
     SearchForm,
     GithubLogo,
+    TwitterLogo,
     Nav
   }
 };

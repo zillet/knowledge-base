@@ -23,7 +23,7 @@ module.exports = {
   siteUrl: `https://www.gridsome.org`,
   titleTemplate: '%s - Zillet',
   siteDescription:
-    'UI/UX focued minimal and secure Zilliqa Wallet primarily inspired from MEW',
+    'Zillet is an open-source, client-side, tool for interacting with the Zilliqa blockchain',
   chainWebpack(config, { isServer }) {
     config.module.rules.delete('svg');
     config.module

@@ -4,12 +4,20 @@
       <span class="main-nav__label">Knowledge Base</span>
     </g-link>
     <a
-      aria-label="github"
+      aria-label="Zillet"
       href="//zillet.io"
       rel="noopener noreferrer"
       target="_blank"
       title="Zillet">
       <span class="main-nav__label">Zillet.io</span>
+    </a>
+    <a
+      aria-label="Email"
+      href="mailto:support@zillet.io"
+      rel="noopener noreferrer"
+      target="_blank"
+      title="Email">
+      <span class="main-nav__label">Support</span>
     </a>
   </nav>
 </template>

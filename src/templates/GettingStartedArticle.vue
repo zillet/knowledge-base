@@ -14,6 +14,7 @@ query GettingStartedArticle ($path: String!) {
     title
     timeToRead
     content
+    date
     path
   }
 }

@@ -14,6 +14,7 @@ query SearchPage {
         path
         excerpt
         priority
+        date (format: "DD-MM-YYYY")
       }
     }
   }

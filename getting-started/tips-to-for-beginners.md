@@ -3,6 +3,7 @@ title: 7 Tips for the Beginners
 sort: 8
 priority: 70
 excerpt: We cannot reverse, cancel, or refund transactions. Make sure you know the process inside and out. Learn more about how can you secure your wallet and use all of it's features without getting scammed.
+date: 2019-07-23
 ---
 
 # Tips for Beginners

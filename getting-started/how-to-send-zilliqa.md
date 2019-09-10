@@ -2,7 +2,7 @@
 sort: 5
 priority: 60
 excerpt: Learn how to make transaction, send Zilliqa token to other mainnet address. Zillet makes it easy for you to send a transaction. All you need is a wallet, the Zilliqa address you’d like to send funds to, and a small amount of ZIL for gas.
-
+date: 2019-07-23
 ---
 
 # How to Send a Transaction (Zilliqa Token)

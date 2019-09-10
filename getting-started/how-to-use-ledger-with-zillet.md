@@ -2,7 +2,7 @@
 sort: 7
 priority: 100
 excerpt: Learn how to connect your very own Ledger Nano S hardware wallet to Zillet. Select account index you want to access, by default it is set to 0 and click on the “CONNECT” button
-
+date: 2019-09-10
 ---
 
 # How to use your Ledger hardware wallet with Zillet

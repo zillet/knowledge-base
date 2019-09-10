@@ -6,7 +6,7 @@
       rel="noopener noreferrer"
       target="_blank"
     >Zillet.io (Zilliqa Wallet)</a> |
-    UI/UX focused Zilliqa wallet primarily inspired from MEW.
+    Zillet is an open-source, client-side, tool for interacting with the Zilliqa blockchain
   </footer>
 </template>
 
