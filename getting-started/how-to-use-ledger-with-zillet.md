@@ -7,11 +7,11 @@ date: 2019-09-25
 
 # How to use your Ledger Nano S with Zillet
 
-**Important**: You can read the original blog on the medium [here](https://blog.zilliqa.com/a-guide-to-zilliqa-ledger-nano-s-app-cd2fdeb05676) 
+**Important**: You can read the original blog on the medium [here](https://blog.zilliqa.com/a-guide-to-zilliqa-ledger-nano-s-app-cd2fdeb05676).
 
-### __To install the Ledger Nano S app
+### __To install the Ledger Nano S app:__
 
-**Step 1.** Download Ledger Live on your computer using [this link]([https://shop.ledger.com/pages/ledger-live].
+**Step 1.** Download Ledger Live on your computer using [this link](https://shop.ledger.com/pages/ledger-live).
 
 **Step 2.** Navigate to the *Manager* tab within the Ledger Live app and confirm the access to your Ledger on your hardware wallet;
 
