@@ -2,38 +2,22 @@
 sort: 7
 priority: 100
 excerpt: Learn how to connect your very own Ledger Nano S hardware wallet to Zillet. Select account index you want to access, by default it is set to 0 and click on the “CONNECT” button
-date: 2019-09-10
+date: 2019-09-25
 ---
 
-# How to use your Ledger hardware wallet with Zillet
+# How to use your Ledger Nano S with Zillet
 
-**Important**: In order to use the Ledger app, you will need to manually install it currently as it is not supported on Ledger Live yet.
+**Important**: You can read the original blog on the medium [here](https://blog.zilliqa.com/a-guide-to-zilliqa-ledger-nano-s-app-cd2fdeb05676) 
 
-#### How to manually install Zilliqa Ledger App
+### __To install the Ledger Nano S app
 
-First, install [Node JS](https://nodejs.org/en/) on your computer. Then, clone the NodeJS-based command line application via the instructions shown below:
+**Step 1.** Download Ledger Live on your computer using [this link]([https://shop.ledger.com/pages/ledger-live].
 
-```sh
- $ git clone https://github.com/CryptoAeon/zil-ledger-node-app.git
-  $ cd zil-ledger-node-app/
-  $ npm install # install dependencies
-  $ node main.js
-```
+**Step 2.** Navigate to the *Manager* tab within the Ledger Live app and confirm the access to your Ledger on your hardware wallet;
 
-You will then be welcomed with the following Options.
+**Step 3.** Search for Zilliqa in the application store search bar, and download the Zilliqa Ledger Nano S app by clicking download.
 
-![](./images/ledger-zillet-step-1.png)
-
-- Install the Ledger Nano S application by entering the Option 1
-- You will be prompted with a screen "Allow Unknown Manager" on the Ledger Nano S device. Right click on the device to install
-- Enter your PIN for the Ledger Nano S device to authorise the installation
-- A success code will be shown on this companion app's command line:
-```
-Installation successful!
-{
-  "exitCode": 0
-}
-```
+**Step4.** You’re done!You have successfully installed the Zilliqa Ledger Nano S application!
 
 ### __To connect Zillet with Ledger Hardware Wallet:__
 
