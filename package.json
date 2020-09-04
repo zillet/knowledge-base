@@ -29,7 +29,7 @@
     "gridsome": "^0.6.0",
     "gridsome-plugin-algolia": "^1.1.5",
     "http-server": "^0.11.1",
-    "marked": "^0.6.1",
+    "marked": "^0.7.0",
     "typeface-league-spartan": "0.0.44",
     "typeface-nunito": "0.0.54",
     "typography": "^0.16.18",
