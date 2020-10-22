@@ -13,6 +13,15 @@ export default {
   computed: {
     articles() {
       let articles = [
+        {
+          node: {
+            title: 'Staking on Zillet',
+            path: 'staking-on-zillet',
+            excerpt: `  When you stake your ZILs, your receive ZIL and gZIL (Governance ZIL) as a reward, this means you are allowed to vote
+        on governance proposals on the Zilliqa ecosystem. But the best `,
+            date: new Date()
+          }
+        },
         ...this.$page.gettingStartedArticles.edges,
         ...this.$page.securityArticles.edges,
         ...this.$page.troubleshootingArticles.edges
