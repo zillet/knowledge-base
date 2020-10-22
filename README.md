@@ -1,6 +1,10 @@
 # Zillet Knowledge Base
 
+![Deploy to Amazon ECS](https://github.com/zillet/knowledge-base/workflows/Deploy%20to%20Amazon%20ECS/badge.svg)
+
 This repository contains the code for the Zillet Knowledge Base (WIP).
+
+__________________
 
 ## Getting Started
 
