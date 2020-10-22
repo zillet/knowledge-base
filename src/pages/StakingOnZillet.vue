@@ -102,22 +102,23 @@
         </a>
         Staked Seed Nodes (SSNs)
       </h2>
+      <Ssn />
     </Section>
     <Footer />
   </div>
 </template>
 <script>
 import Header from './../layouts/partials/Header';
-import Subheader from './../layouts/partials/Subheader';
 import Footer from './../layouts/partials/Footer';
+import Ssn from './../components/Ssn';
 
 export default {
   name: 'GettingStarted',
   components: {
     Header,
-    Footer
-  },
-  mixins: [Vue2Filters.mixin]
+    Footer,
+    Ssn
+  }
 };
 </script>
 <style scoped>

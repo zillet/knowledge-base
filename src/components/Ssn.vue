@@ -101,7 +101,6 @@ export default {
         []
       );
       this.ssnlist = ssnlist;
-      console.log(this.ssnlist);
     },
     formatSsns() {}
   }
