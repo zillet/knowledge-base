@@ -42,9 +42,11 @@
         Who should you delegate your ZILs to?
       </h2>
       <p>
-        There is no best choice. Every validator has its characteristics. However, most people want to pick the safest and most secure validator so 
-        they don’t lose any money. It's good to choose an SSN with a lower commission rate and known name. 
-        You can check the table for the commission rate and details about SSN below. 
+        There is no best choice. Every SSN has its characteristics. However, most people want to pick the safest and most
+        secure SSN so they don’t lose any rewards. However, it is a general misunderstanding that
+        there is a single best SSN to delegate safely. The best SSN to safely delegate is all of them.
+        If you spread your ZILs across all SSNs, the risk is the lowest. 
+        You can check the table for the commission rate and details about SSN below.
       </p>
       <h2 id="who-should-you-delegate-your-zil-to">
         <a
@@ -92,7 +94,9 @@
         What's the waiting period if I want to unstake my ZIL?
       </h2>
       <p>
-        Delegating means that your ZIL cannot be transferred for 2 weeks, but you can redelegate to other SSN instantly.
+        Delegating means that your ZIL cannot be transferred for 2 weeks, but you can redelegate to other SSN instantly. 
+        Technically, Redelegation takes one cycle to be completed (18 DS blocks). but the user doesn't 
+        The user doesn't have to perform any extra actions. You'll automatically start receiving the reward from the new SSN ( after 18 DS blocks)
       </p> 
       <h2 id="staked-seed-nodes">
         <a
