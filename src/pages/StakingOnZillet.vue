@@ -122,6 +122,9 @@ export default {
     Header,
     Footer,
     Ssn
+  },
+  metaInfo: {
+    title: 'How to stake ZIL (Zilliqa) on Zillet'
   }
 };
 </script>
