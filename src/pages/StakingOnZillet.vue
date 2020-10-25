@@ -16,7 +16,7 @@
         How to stake ZILs on Zillet?
       </h2>
       <p><strong>Step 1.</strong> Select the <em>staking</em> tab. You'll see the stake option there. Just click on it.</p>
-      <p><strong>Step 2.</strong> Enter the amount you want to stake and click on the stake button. Wait for the transaction to got confirmed</p>
+      <p><strong>Step 2.</strong> Enter the amount you want to stake and click on the stake button.</p>
       <p><strong>Step 1.5. (Optional)</strong> You can also choose the SSN node you want to delegte to</p>
       <p>Wait for transaction to got confirmed</p>
      
@@ -67,11 +67,11 @@
           aria-hidden="true">
           <span class="icon icon-link" />
         </a>
-        How can I delegate my staked ZIL to Zillet?
+        How can I delegate my staked ZIL to other SSN (ex. Zillet)?
       </h2>
       <p><strong>Step 1.</strong> Select the <em>staking</em> tab.You'll see the Transfer Stake option there. Just click on it.</p>
       <p><strong>Step 2.</strong>  Choose the delegator from you want to move your ZILs </p>
-      <p><strong>Step 3.</strong>  Select Zillet in second dropdown if it's not selected already </p>
+      <p><strong>Step 3.</strong>  Select the SSN you want to redelegate your amount to (ex. Zillet) in second dropdown </p>
       <p><strong>Step 4</strong> Enter the amount you want to move and click on the Transfer button</p>
       <p>Wait for transaction to got confirmed</p>
       <h2 id="what-happen-if-a-ssn-you-have-chosen-is-down">
@@ -95,8 +95,8 @@
       </h2>
       <p>
         Delegating means that your ZIL cannot be transferred for 2 weeks, but you can redelegate to other SSN instantly. 
-        Technically, Redelegation takes one cycle to be completed (18 DS blocks). but the user doesn't 
-        The user doesn't have to perform any extra actions. You'll automatically start receiving the reward from the new SSN ( after 18 DS blocks)
+        Technically, Redelegation takes one cycle to be completed (18 DS blocks). But the user doesn't doesn't have to perform any extra actions.
+        You'll automatically start receiving the reward from the new SSN ( after 18 DS blocks)
       </p> 
       <h2 id="staked-seed-nodes">
         <a
