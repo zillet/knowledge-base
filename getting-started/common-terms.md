@@ -22,12 +22,11 @@ date: 2019-07-23
 - Your funds are actually stored on the blockchain, not in the wallet or account.
 - Just like your Facebook account has a username (public) and password (private), so does your Zilliqa account.  For additional security, you can use a password to encrypt your private key which would result in a username (public) and password (private) and password for that password (private + more secure).
 
-### (Account / Zilliqa / Public) Address
+### (Account / Zilliqa ) Address
 
 - You use this to send funds to an account.
-- Sometimes referred to as the “public key”
-- A string made up of 0x + 40 hexadecimal characters. (42 total characters).
-- In Zilliqa, the address begins with 0x. similar to Ethereum but these two address generation process is diffrent so the **Ethereum address won't work on Zilliqa Blockchain** Example: 0x7e257de121fbac2400ab963ca9f39ee996517c11
+- A string made up of zil + 39 characters and digit. (42 total characters).
+- In Zilliqa, the address begins with zil. Example: `zil1ha89qqfnnhkreksadfg37nedn6976t6meddjez`
 
 ### Public Key
 
