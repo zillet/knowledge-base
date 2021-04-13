@@ -2,7 +2,6 @@
   <Section>
     <h3> Popular Articles <i class="eva eva-arrow-downward-outline" /> </h3>
     <List :articles="articles" />
-    {{ articles }}
   </Section>
 </template>
 <script>
