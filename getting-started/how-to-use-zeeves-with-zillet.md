@@ -1,3 +1,10 @@
+---
+sort: 7
+priority: 100
+excerpt: Learn how to connect your zeeves wallet to Zillet. On the front page down under the "zeeves" click connect.  Go to your telegram app Click the "Start" button on Zeeves
+date: 2021-05-10
+---
+
 # How to Connect Your Wallet with Zeeves
 
 ### Steps required to connect to Zeeves Bot
@@ -5,9 +12,7 @@
 
 * Go to <https://zillet.io/>
 * On the front page down under the `"zeeves"` click connect.
-* Add `"Zeeves Bot"` to your telegram account.
-    ![](./images/Bot-Link.png)
-* Go to your telegram app Click the `"Start"` button on Zeeves   chat.
+* Go to your telegram app and click the `"Start"` button on Zeeves, if You don't have an account create one.
 * Tap on `"Import Account"` and Open the Link.
 * It will ask you to add/import your wallet By.
     1. Private Key
@@ -18,9 +23,6 @@
     - Add your E-mail ID
     - Click the `"Create An Account"`
     - You're done!
-* Now Open Zeeves on <https://zillet.io/>
-    - Click the `"Connect"`
-    - You will receive authentication code on Telegram.
 * You're all set now to Login with Zeeves.
 
 ## Related articles
