@@ -5,7 +5,7 @@ excerpt: Learn how to connect your zeeves wallet to Zillet. On the front page do
 date: 2021-05-10
 ---
 
-# How to Connect Your Wallet with Zeeves
+# How to use Zeeves (Telegram account) with Zillet
 
 ### Steps required to connect to Zeeves Bot
 
