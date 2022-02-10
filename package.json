@@ -60,7 +60,7 @@
     "fs-extra": "^7.0.1",
     "husky": "^2.2.0",
     "js-yaml": "^3.12.1",
-    "node-sass": "^4.9.3",
+    "node-sass": "^7.0.0",
     "prettier": "1.14.3",
     "raw-loader": "^0.5.1",
     "sass-loader": "^7.1.0",
