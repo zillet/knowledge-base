@@ -29,8 +29,7 @@
         What are the benefits of staking?
       </h2>
       <p>
-        When you stake your ZILs, your receive ZIL and gZIL (Governance ZIL) as a reward, this means you are allowed to vote
-        on governance proposals on the Zilliqa ecosystem. But the best part is that you receive ZIL over time. 
+        When you stake your ZILs, your receive ZIL as a reward.
         This interest, reward, or inflation heavily incentivizes staking and is why you should delegate over long periods.
       </p> 
       <h2 id="who-should-you-delegate-your-zil-to">
