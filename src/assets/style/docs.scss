@@ -1,9 +1,8 @@
 .docs-page .post {
-
   max-width: 100%;
 
   ul li {
-    margin-bottom: .2rem;
+    margin-bottom: 0.2rem;
   }
 
   p > img {
@@ -17,8 +16,12 @@
     }
   }
 
-  
-  h1, h2, h3 {
+  h1 {
+    line-height: 1.5;
+  }
+  h1,
+  h2,
+  h3 {
     padding-top: 6rem;
     margin-top: -5rem;
 
@@ -29,13 +32,13 @@
       font-size: 0.85em;
       text-align: center;
       width: 0.8em;
-      opacity: 0.0;
+      opacity: 0;
       color: var(--primary-link-color);
       box-shadow: none;
       background: none;
 
       &::before {
-        content: " ";
+        content: ' ';
         position: absolute;
         top: 0;
         height: 100%;
@@ -47,29 +50,39 @@
       }
     }
 
-    &:hover a{
+    &:hover a {
       opacity: 1;
     }
   }
 
   h2 {
     &::before {
-      content: " ";
+      content: ' ';
       display: block;
       margin-bottom: 1.5rem;
       border-top: 1px solid var(--border-color);
     }
   }
-  
-  h3 { opacity: .9 }
 
-  h4, h5, h6 { opacity: .8 }
+  h3 {
+    opacity: 0.9;
+  }
 
-  h1 a, h4 a, h5 a, h6 a {
+  h4,
+  h5,
+  h6 {
+    opacity: 0.8;
+  }
+
+  h1 a,
+  h4 a,
+  h5 a,
+  h6 a {
     display: none;
   }
 
-  p, ul {
+  p,
+  ul {
     position: relative;
     z-index: 1;
   }
@@ -79,20 +92,19 @@
   }
 }
 
-
 .github-edit-link {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: normal;
   display: flex;
   align-items: center;
   padding-top: 1rem;
-  
+
   &:not(:hover) {
     color: var(--primary-link-color);
   }
 
   svg {
-    margin-right: .5rem;
+    margin-right: 0.5rem;
   }
 }
 

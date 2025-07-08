@@ -4,7 +4,7 @@ priority: 100
 excerpt: Zilliqa 2.0 is LIVE! The highly anticipated update focuses exclusively on ZQ2 (EVM network) support.
 ---
 
-<h1 style="line-height:1.4">Migrating Zilliqa, gZIL, other ZRC2 tokens and Stakes from the Old Zilliqa Network to Zilliqa EVM</h1>
+# Migrating Zilliqa, gZIL, other ZRC2 tokens and Stakes from the Old Zilliqa Network to Zilliqa EVM
 
 The highly anticipated update focuses exclusively on ZQ2 (EVM network) support.  
 To access the previous version, visit  
