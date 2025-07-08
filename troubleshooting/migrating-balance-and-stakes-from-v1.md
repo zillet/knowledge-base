@@ -4,7 +4,7 @@ priority: 100
 excerpt: Zilliqa 2.0 is LIVE! The highly anticipated update focuses exclusively on ZQ2 (EVM network) support.
 ---
 
-# Migrating Balance and Stakes from the Old Zilliqa Network
+<h1 style="line-height:1.4">Migrating Zilliqa, gZIL, other ZRC2 tokens and Stakes from the Old Zilliqa Network to Zilliqa EVM</h1>
 
 The highly anticipated update focuses exclusively on ZQ2 (EVM network) support.  
 To access the previous version, visit  
@@ -19,15 +19,21 @@ https://app.zillet.io
 </a> and connect your wallet using any available method.
 <br /> <div class="mt-2" /> 
 2. Go to the Wallet Info tab and copy your <b>Bech32 Address</b>.
+<img src="https://www.zillet.io/transfer-1.png" />
 <br /> <div class="mt-2" /> 
-3. Paste the <b>Bech32 Address</b> you copied from v2 into the old version at <a href="https://v1.zillet.io" class="text-primary" target="_blank">
+3a. Paste the <b>Bech32 Address</b> you copied from v2 into the old version at <a href="https://v1.zillet.io" class="text-primary" target="_blank">
 https://v1.zillet.io
 </a> and send the funds.
-<br /> <div class="mt-2" /> 
+<img src="https://www.zillet.io/transfer-2.png" />
+
+3b. "Similarly, you can migrate any ZRC2 token to an ERC20 token on Zilliqa EVM. Simply paste the <b>Bech32 Address</b> you copied from v2 and select the ZRC2 token you want to migrate in the old version at <a href='https://v1.zillet.io' class='text-primary' target='_blank'>https://v1.zillet.io</a>, then send the funds.
+<img src="https://www.zillet.io/transfer-3.png" />
+<br /> <div class="mt-2" />
+
 4. Wait for your funds to arrive in the new wallet.
-<br /> <div class="mt-2" /> 
+   <br /> <div class="mt-2" />
 5. Begin staking and enjoy the rewards!
-<br /><br />
+   <br /><br />
 
 <h3 class="font-bold text-primary">Moving Stake from V1 to V2</h3> 
 1. Claim any pending rewards from all your SSN nodes.
