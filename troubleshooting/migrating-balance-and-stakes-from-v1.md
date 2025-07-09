@@ -45,3 +45,18 @@ https://v1.zillet.io
 4. Transfer the funds from old Zillet v1 to Zillet v2 using the same method as in the "Transferring Balance" section.
 <br /> <div class="mt-2" /> 
 5. Begin staking and enjoy the rewards!
+
+<h3 class="font-bold text-primary">Transferring Balance from V2 to V1</h3> 
+1. Head over to Zillet v1 using this link: <a href="https://v1.zillet.io" class="text-primary" target="_blank">
+https://v1.zillet.io
+</a> and connect your wallet using any available method.
+<br /> <div class="mt-2" /> 
+2. Go to the Wallet Info tab and copy your <b>Base16 Address</b>.
+<img src="https://www.zillet.io/transfer-4.png" />
+<br /> <div class="mt-2" /> 
+3. Paste the <b>Base16 Address</b> you copied from v1 into the v2 version (EVM) at <a href="https://app.zillet.io" class="text-primary" target="_blank">
+https://app.zillet.io
+</a> and send the funds.
+<img src="https://www.zillet.io/transfer-5.png" />
+4. Wait for your funds to arrive in the old v1 wallet.
+   <br /> <div class="mt-2" />
